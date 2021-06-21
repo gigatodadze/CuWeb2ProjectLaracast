@@ -252,7 +252,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("p", [_vm._v("About")])
+  return _c("h1", [_vm._v("About")])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -276,7 +276,11 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("p", [_vm._v("Home")])
+  return _c(
+    "h1",
+    { staticClass: "font-normal leading-none 2xl:text-blue-100" },
+    [_vm._v("Full Logo")]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
