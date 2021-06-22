@@ -1,5 +1,19 @@
 <template>
-    <h1 class="font-normal leading-none 2xl:text-blue-100">Full Logo</h1>
+<div>
+    <h1 class="font-normal leading-none 2xl:text-blue-100 leading-none mb-4">Full Logo</h1>
+    <div>
+        <picture>
+            <img src="/images/logo.svg" alt="logo"/>
+        </picture>
+        <div class="flex justify-between">
+            <p>
+                Original Logo on <strong> white </strong> background
+            </p>
+
+            <a href="/images/logo.svg" class="">logo.svg</a>
+        </div>
+    </div>
+</div>
 </template>
 
 <script>
