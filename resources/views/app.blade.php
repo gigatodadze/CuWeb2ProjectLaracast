@@ -22,7 +22,7 @@
 
 
         <main class="flex">
-            <aside class="w-1/5 pt-10">
+            <aside class="w-64 pt-10">
              <section class="mb-10">
                  <h5 class="uppercase font-bold mb-3 text-base">The Brand</h5>
                  <ul class="list-reset">
