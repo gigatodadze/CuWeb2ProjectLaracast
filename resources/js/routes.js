@@ -3,10 +3,13 @@ import LogoSymbol from './components/LogoSymbol';
 import Colors from './components/Colors';
 import Typograpgy from "./components/Typograpgy";
 import Illustrations from "./components/Illustrations";
-import LoadersAndAnimations from "./components/LoadersAndAnimations";
+let LoadersAndAnimations = () => import(
+    "./components/LoadersAndAnimations"
+      ) ;
 import Mascot from "./components/Mascot";
 import Wallpapers from "./components/Wallpapers";
 import NotFound from "./components/NotFound";
+
 
 export default {
     mode: 'history',
