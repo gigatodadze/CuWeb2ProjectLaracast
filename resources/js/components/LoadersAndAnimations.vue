@@ -6,9 +6,7 @@
 
         <p class="mb-10 text-gray-500 leading-normal ">
             This spinner uses AirBnb's
-            <a href="http://airbnb.io/lottie/#/web" class="text-blue font-bold"
-            >Lottie</a
-            >
+            <a href="http://airbnb.io/lottie/#/web" class="text-blue font-bold">Lottie</a>
             library to render its animation. You may download the necessary
             assets below.
         </p>
