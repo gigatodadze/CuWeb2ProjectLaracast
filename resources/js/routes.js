@@ -3,13 +3,13 @@ import LogoSymbol from './components/LogoSymbol';
 import Colors from './components/Colors';
 import Typograpgy from "./components/Typograpgy";
 import Illustrations from "./components/Illustrations";
-let LoadersAndAnimations = () => import(
-    "./components/LoadersAndAnimations"
-      ) ;
 import Mascot from "./components/Mascot";
 import Wallpapers from "./components/Wallpapers";
 import NotFound from "./components/NotFound";
-
+import SiteStats from "./components/SiteStats";
+let LoadersAndAnimations = () => import(
+    "./components/LoadersAndAnimations"
+    ) ;
 
 export default {
     mode: 'history',
@@ -48,6 +48,10 @@ export default {
         {
             path: '/mascot',
             component: Mascot
+        },
+        {
+            path: '/site-stats',
+            component: SiteStats
         },
         {
             path: '/wallpapers',

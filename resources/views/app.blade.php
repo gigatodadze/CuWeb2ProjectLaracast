@@ -43,6 +43,13 @@
                 </ul>
             </section>
 
+                <section class="mb-10">
+                    <h5 class="uppercase font-bold mb-3 text-base">Stats</h5>
+                    <ul class="list-reset">
+                        <li class="text-sm leading-loose"> <router-link class="text-black"  active-class="font-bold" to="/site-stats">Site Stats</router-link></li>
+                       </ul>
+                </section>
+
             </aside>
         <div class="primary flex-1">
             <router-view></router-view>
