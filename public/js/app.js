@@ -2816,11 +2816,10 @@ var LoadersAndAnimations = function LoadersAndAnimations() {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mode: 'history',
   linkActiveClass: 'font-bold',
-  routes: [// {
-  //   path: '*',
-  //   component:   NotFound
-  // },
-  {
+  routes: [{
+    path: '*',
+    component: _components_NotFound__WEBPACK_IMPORTED_MODULE_7__.default
+  }, {
     path: '/',
     component: _components_Logo__WEBPACK_IMPORTED_MODULE_0__.default
   }, {

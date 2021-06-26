@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\UserAuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +26,15 @@ Route::get('stats',function (){
     ];
 });
 
-Route::post('/register', 'Auth\UserAuthController@register');
-Route::post('/login', 'Auth\UserAuthController@login');
 
-Route::apiResource('/employee', 'EmployeeController')->middleware('auth:api');
+//Route::post('register',[UserAuthController::class, 'register']);
+//Route::post('login',[UserAuthController::class, 'login']);
+
+//Route::post('register', 'Auth\UserAuthController@register');
+//Route::post('login', 'Auth\UserAuthController@login');
+
+Route::apiResource('employee', 'EmployeeController')->middleware('auth:api');
+
+
+Route::post('register', [UserAuthController::class, 'register'])->name('UserAuthController.register');
+Route::post('login', [UserAuthController::class, 'login'])->name('UserAuthController.login');

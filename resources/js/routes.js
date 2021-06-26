@@ -17,10 +17,10 @@ export default {
     linkActiveClass: 'font-bold',
 
     routes: [
-        // {
-        //   path: '*',
-        //   component:   NotFound
-        // },
+        {
+          path: '*',
+          component:   NotFound
+        },
         {
             path: '/',
             component: Logo
