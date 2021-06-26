@@ -31895,6 +31895,16 @@ video {
   max-width: 920px;
 }
 
+.button {
+  color: black;
+  border: 2px solid grey;
+  border-radius: 3px;
+  background-color: white;
+  padding: 2px 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
