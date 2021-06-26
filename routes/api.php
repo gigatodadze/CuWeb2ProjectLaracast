@@ -24,3 +24,8 @@ Route::get('stats',function (){
         'lessons' => 1300
     ];
 });
+
+Route::post('/register', 'Auth\UserAuthController@register');
+Route::post('/login', 'Auth\UserAuthController@login');
+
+Route::apiResource('/employee', 'EmployeeController')->middleware('auth:api');
